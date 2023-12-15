@@ -1,0 +1,24 @@
+POST http://localhost:3333/authenticate
+Content-Type: application/json
+
+{
+    "account": "ThigasDEV",
+    "email": "thigasdevelopment@gmail.com",
+    "password": "Bol@defogo8",
+
+    "profile": {
+        "name": "Usuário Aurora 918321",
+        "image": 2,
+
+        "posts": [ ],
+        "likes": [ ],
+
+        "following": [ ],
+		"followers": [ ],
+
+        "role": "administrator"
+    }
+}
+
+###
+GET http://localhost:3333/profile
